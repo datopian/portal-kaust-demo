@@ -99,7 +99,17 @@ async function ensureGroup(actionBase, apiKey, groupPayload, dryRun) {
   );
 
   if (existing?.success) {
-    console.log(`group exists: ${groupPayload.name}`);
+    await ckanAction(
+      actionBase,
+      "group_update",
+      {
+        ...existing.result,
+        ...groupPayload,
+        id: existing.result.id,
+      },
+      apiKey
+    );
+    console.log(`group updated: ${groupPayload.name}`);
     return;
   }
 

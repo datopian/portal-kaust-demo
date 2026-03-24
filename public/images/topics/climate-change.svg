@@ -1,12 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
   <defs>
-    <linearGradient id="grad-climate" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1595c3" />
-      <stop offset="100%" stop-color="#2bc0e4" />
+    <linearGradient id="climate-bg" x1="18" y1="16" x2="102" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#14B8A6"/>
     </linearGradient>
   </defs>
-  <rect width="120" height="120" rx="24" fill="url(#grad-climate)" />
-  <path d="M35 75 Q45 55 60 55 Q75 55 85 35" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" />
-  <circle cx="90" cy="40" r="10" fill="#fff" opacity="0.6" />
-  <circle cx="40" cy="50" r="6" fill="#fff" opacity="0.6" />
+  <rect width="120" height="120" rx="24" fill="url(#climate-bg)"/>
+  <circle cx="50" cy="58" r="22" stroke="white" stroke-width="6"/>
+  <path d="M50 36C45 42 42 49 42 57C42 67 45 73 50 80C55 73 58 67 58 57C58 49 55 42 50 36Z" fill="white" fill-opacity="0.22"/>
+  <path d="M82 34V74" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="82" cy="82" r="10" fill="white"/>
+  <path d="M32 58H68" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
 </svg>

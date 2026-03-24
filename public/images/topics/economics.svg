@@ -1,11 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
   <defs>
-    <linearGradient id="grad-econ" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6366f1" />
-      <stop offset="100%" stop-color="#8b5cf6" />
+    <linearGradient id="econ-bg" x1="18" y1="18" x2="102" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#4338CA"/>
     </linearGradient>
   </defs>
-  <rect width="120" height="120" rx="24" fill="url(#grad-econ)" />
-  <path d="M35 80h20v-30h10v40h20" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" />
-  <circle cx="85" cy="40" r="8" fill="#fff" />
+  <rect width="120" height="120" rx="24" fill="url(#econ-bg)"/>
+  <path d="M28 86H92" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <rect x="34" y="60" width="10" height="26" rx="3" fill="white"/>
+  <rect x="52" y="50" width="10" height="36" rx="3" fill="white" fill-opacity="0.88"/>
+  <rect x="70" y="40" width="10" height="46" rx="3" fill="white" fill-opacity="0.74"/>
+  <circle cx="84" cy="34" r="12" fill="white" fill-opacity="0.18"/>
+  <path d="M84 27V41" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M89 30.5C87.5 28.5 80 28.5 79 32C78 35.5 89 34 89 38C89 41.5 80.5 42 79 39.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
 </svg>

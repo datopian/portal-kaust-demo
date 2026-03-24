@@ -1,5 +1,5 @@
 const ICON_BASE_URL =
-  "https://raw.githubusercontent.com/datopian/portal-datopian-research/main/public/images/topics";
+  "https://kaust-demo.portaljs.com/images/topics";
 
 export const DATAHUB_DEMO_MANIFEST = {
   ownerOrg: "kaust-demo",

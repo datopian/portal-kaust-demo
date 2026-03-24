@@ -1,11 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
   <defs>
-    <linearGradient id="grad-energy" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ec4899" />
-      <stop offset="100%" stop-color="#f472b6" />
+    <linearGradient id="energy-bg" x1="18" y1="18" x2="102" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DC2626"/>
+      <stop offset="1" stop-color="#F08F00"/>
     </linearGradient>
   </defs>
-  <rect width="120" height="120" rx="24" fill="url(#grad-energy)" />
-  <polygon points="60,30 45,70 65,70 50,90 75,55 60,55" fill="#fff" opacity="0.9" />
-  <circle cx="60" cy="70" r="8" fill="#fff" />
+  <rect width="120" height="120" rx="24" fill="url(#energy-bg)"/>
+  <path d="M66 24L42 64H58L50 96L78 53H62L66 24Z" fill="white"/>
+  <path d="M84 42V56" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path d="M92 42V56" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path d="M80 58H96V70C96 75.523 91.523 80 86 80C80.477 80 76 75.523 76 70V66" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

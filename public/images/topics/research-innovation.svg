@@ -1,12 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
   <defs>
-    <linearGradient id="grad-research" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#0ea5e9" />
+    <linearGradient id="research-bg" x1="18" y1="18" x2="102" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0369A1"/>
+      <stop offset="1" stop-color="#0891B2"/>
     </linearGradient>
   </defs>
-  <rect width="120" height="120" rx="24" fill="url(#grad-research)" />
-  <circle cx="50" cy="60" r="20" fill="#fff" opacity="0.6" />
-  <path d="M45 40 L70 55 L50 80" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" />
-  <circle cx="60" cy="40" r="6" fill="#fff" />
+  <rect width="120" height="120" rx="24" fill="url(#research-bg)"/>
+  <path d="M40 36L56 52" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path d="M55 31L70 46" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path d="M64 52L46 70" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path d="M46 70H82" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path d="M60 70V82" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path d="M42 86H88" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="78" cy="34" r="8" fill="white" fill-opacity="0.2"/>
+  <path d="M78 24V28" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M78 40V44" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M68 34H72" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M84 34H88" stroke="white" stroke-width="4" stroke-linecap="round"/>
 </svg>

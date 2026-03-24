@@ -5,6 +5,7 @@ const domains = [
   "demo.dev.datopian.com",
   "api.dev.cloud.portaljs",
   "blob.datopian.com",
+  "kaust-demo.portaljs.com",
 ];
 const nextConfig = {
   reactStrictMode: true,
