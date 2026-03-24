@@ -4,7 +4,7 @@ import SearchForm from "./SearchForm";
 const SUGGESTED_PROMPTS = [
   "How have global temperatures changed since 1900?",
   "Compare atmospheric CO2 measurements this decade",
-  "Show Finland COVID-19 incidence per district",
+  "Show COVID-19 incidence per district",
   "Compare pharma spending trends across countries",
 ];
 
@@ -29,7 +29,7 @@ export default function HeroSectionLight({
       <div className="flex-1 flex flex-col items-center justify-center text-center gap-6 w-full max-w-3xl mx-auto">
         <Image
           src="/images/logos/MainLogoSymbol.svg"
-          alt="PortalJS Research Data Portal"
+          alt="KAUST Data Portal"
           width={96}
           height={96}
           style={{ objectFit: "contain" }}
@@ -38,8 +38,7 @@ export default function HeroSectionLight({
 
         <div className="flex flex-col gap-3">
           <h1 className="font-black text-[42px] md:text-[58px] leading-tight text-gray-900">
-            Research Data{" "}
-            <span className="text-accent">Intelligence</span>
+            KAUST Research Data
           </h1>
           <p className="text-gray-500 text-[17px] md:text-[19px] max-w-xl mx-auto">
             Explore academic and scientific datasets.

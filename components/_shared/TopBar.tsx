@@ -13,13 +13,13 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex items-center gap-x-12">
-          <span className="sr-only">Datopian</span>
+          <span className="sr-only">KAUST</span>
           <Link href="/">
             <img
               src="/images/logos/MainLogo.svg"
               width="60px"
               height="60px"
-              alt="Portal"
+              alt="KAUST"
             ></img>
           </Link>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -59,13 +59,13 @@ export default function Example() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <span className="sr-only">Datopian</span>
+            <span className="sr-only">KAUST</span>
             <Link href="/" className="-m-1.5 p-1.5">
               <img
                 src="/images/logos/MainLogo.svg"
                 width="60px"
                 height="60px"
-                alt="Portal"
+                alt="KAUST"
               ></img>
             </Link>
             <button

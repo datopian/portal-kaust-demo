@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
       },
       {
         name: "email",
-        href: "mailto:hello@datopian.com",
+        href: "mailto:info@kaust.edu.sa",
         // eslint-disable-next-line
         icon: (props: IconProps) => (
           <svg fill="currentColor" viewBox="0 0 64 64" {...props}>
@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
       <div className="custom-container flex flex-col flex-wrap py-10 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
         <div className="justify-between w-full text-center md:text-left lg:flex">
           <div className="w-full lg:w-1/3 md:w-1/2">
-            <h2 className="mt-4 mb-4 font-roboto font-black">ABOUT DATOPIAN</h2>
+            <h2 className="mt-4 mb-4 font-roboto font-black">ABOUT KAUST</h2>
             <ul className="space-y-4 text-sm list-none">
               {navigation.about.map((item) => (
                 <li key={item.name}>
@@ -168,12 +168,12 @@ const Footer: React.FC = () => {
       </div>
       <div className="custom-container flex flex-col flex-wrap py-6 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
         <a
-          href="https://portaljs.org"
+          href="/"
           target="_blank"
           className="text-xl font-medium"
           rel="noreferrer"
         >
-          🌀 PortalJS
+          KAUST
         </a>
       </div>
     </footer>

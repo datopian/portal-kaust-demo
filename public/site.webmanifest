@@ -1,11 +1,11 @@
 {
-  "name": "PortalJS frontend template",
-  "short_name": "PortalJS",
+  "name": "KAUST Data Portal",
+  "short_name": "KAUST",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3F59B1",
+  "theme_color": "#f08f00",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

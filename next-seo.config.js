@@ -1,9 +1,9 @@
 /* eslint-disable import/no-anonymous-default-export */
 
-export const siteTitle = "PortalJS Research Data Portal";
-export const title = "PortalJS";
+export const siteTitle = "KAUST Data Portal";
+export const title = "KAUST";
 export const description =
-  "Discover and explore academic and scientific datasets. Search, preview, and analyse open research data powered by PortalJS.";
+  "Discover and explore academic and scientific datasets. Search, preview, and analyse open research data powered by KAUST.";
 
 export const url = "https://portaljs-cloud-frontend-template.vercel.app";
 export const imageUrl = `${url}/images/portaljs-frontend.png`;
@@ -31,18 +31,18 @@ export default {
     ],
   },
   twitter: {
-    handle: "@datopian",
-    site: "@PortalJS_",
+    handle: "@kaust",
+    site: "@kaust",
     cardType: "summary_large_image",
   },
   additionalMetaTags: [
     {
       name: "keywords",
-      content: "PortalJS, research data, academic datasets, open science, data portal, datopian",
+      content: "KAUST, research data, academic datasets, open science, data portal",
     },
     {
       name: "author",
-      content: "Datopian / PortalJS",
+      content: "KAUST",
     },
     {
       property: "og:image:width",

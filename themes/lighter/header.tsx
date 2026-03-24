@@ -31,14 +31,14 @@ export default function LighterThemeHeader() {
         aria-label="Global"
       >
         <div className="flex items-center">
-          <span className="sr-only">Portal</span>
-          {portalLogo ? (
-            <Link href="/">
-              <Image src={portalLogo} alt="logo" height={72} width={240} style={{ objectFit: "contain" }} />
-            </Link>
-          ) : (
-            <PortalDefaultLogo />
-          )}
+          <span className="sr-only">KAUST</span>
+          <Link href="/" className="flex items-center gap-4">
+            <Image src={portalLogo} alt="KAUST" height={28} width={94} style={{ objectFit: "contain" }} />
+            <div className="hidden xl:block leading-tight">
+              <div className="text-sm font-semibold text-gray-900">King Abdullah University of Science and Technology</div>
+              <div className="text-[10px] uppercase tracking-[0.2em] text-accent">Research Data Portal</div>
+            </div>
+          </Link>
         </div>
 
         <div className="hidden lg:flex lg:gap-x-8 items-center">
@@ -80,13 +80,13 @@ export default function LighterThemeHeader() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-4 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <span className="sr-only">Datopian</span>
+            <span className="sr-only">KAUST</span>
             <Link href="/" className="-m-1.5 p-1.5 inline-block md:hidden">
               <Image
                 src={portalLogo}
-                width={180}
-                height={54}
-                alt="Portal"
+                width={94}
+                height={28}
+                alt="KAUST"
                 style={{ objectFit: "contain" }}
               />
             </Link>

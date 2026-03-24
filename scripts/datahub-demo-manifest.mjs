@@ -2,7 +2,7 @@ const ICON_BASE_URL =
   "https://raw.githubusercontent.com/datopian/portal-datopian-research/main/public/images/topics";
 
 export const DATAHUB_DEMO_MANIFEST = {
-  ownerOrg: "datopian-research",
+  ownerOrg: "kaust-demo",
   defaults: {
     language: "EN",
     version: "2026-demo",

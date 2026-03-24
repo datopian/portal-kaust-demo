@@ -10,7 +10,7 @@ const LighterThemeFooter: React.FC = () => {
   const { theme } = useTheme();
   const navigation = {
     about: [
-      { name: "About Us", href: "https://www.datopian.com/about/" },
+      { name: "About Us", href: "https://www.kaust.edu.sa" },
       {
         name: "Our Technology",
         href: "https://portaljs.com",
@@ -86,7 +86,7 @@ const LighterThemeFooter: React.FC = () => {
       },
       {
         name: "email",
-        href: "mailto:hello@datopian.com",
+        href: "mailto:info@kaust.edu.sa",
         // eslint-disable-next-line
         icon: (props: IconProps) => (
           <svg fill="currentColor" viewBox="0 0 64 64" {...props}>
@@ -111,7 +111,7 @@ const LighterThemeFooter: React.FC = () => {
       >
         <div className="justify-between w-full text-center md:text-left lg:flex">
           <div className="w-full lg:w-1/3 md:w-1/2">
-            <h2 className="mt-4 mb-4 font-roboto font-black">ABOUT DATOPIAN</h2>
+            <h2 className="mt-4 mb-4 font-roboto font-black">ABOUT KAUST</h2>
             <ul className="space-y-4 text-sm list-none">
               {navigation.about.map((item) => (
                 <li key={item.name}>
