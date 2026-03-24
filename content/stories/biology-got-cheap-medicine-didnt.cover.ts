@@ -1,7 +1,7 @@
 import type { PlotModule } from "@/types/chartData";
 
-const ACCENT = "#2563eb";
-const ACCENT_LIGHT = "#93c5fd";
+const ACCENT = "#f08f00";
+const ACCENT_LIGHT = "#f6b54d";
 
 export const coverCsvUrl =
   "https://datahub.io/core/genome-sequencing-costs/_r/-/data/sequencing_costs.csv";

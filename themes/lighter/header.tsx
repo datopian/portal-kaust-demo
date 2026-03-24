@@ -33,7 +33,7 @@ export default function LighterThemeHeader() {
         <div className="flex items-center">
           <span className="sr-only">KAUST</span>
           <Link href="/" className="flex items-center gap-4">
-            <Image src={portalLogo} alt="KAUST" height={28} width={94} style={{ objectFit: "contain" }} />
+            <Image src={portalLogo} alt="KAUST" height={25} width={85} style={{ objectFit: "contain" }} />
             <div className="hidden xl:block leading-tight">
               <div className="text-sm font-semibold text-gray-900">King Abdullah University of Science and Technology</div>
               <div className="text-[10px] uppercase tracking-[0.2em] text-accent">Research Data Portal</div>
@@ -84,8 +84,8 @@ export default function LighterThemeHeader() {
             <Link href="/" className="-m-1.5 p-1.5 inline-block md:hidden">
               <Image
                 src={portalLogo}
-                width={94}
-                height={28}
+                width={85}
+                height={25}
                 alt="KAUST"
                 style={{ objectFit: "contain" }}
               />
